@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+
+
+.container{
+    max-width: 55%;
+    padding: 34px;
+    margin: auto;
+    
+}
+    
+
+.container h3, p{
+    text-align: center;
+} 
+
+input, textarea {
+   
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    width: 93%;
+    margin: 11px;
+    font-size: 16px;
+    padding: 7px;
+
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+button.btn{
+    width: 16%;
+    height: 30px;
+    border: revert-layer;
+    border-radius: 10%;
+}
+
+button.btn:hover{
+    box-shadow: rgb(104, 102, 102) 0 6px 10px;
+    background-color:green;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 15.8;
+}
+
+.submitMsg{
+    font-size: 25px;
+    color: #033703;
+}
+
+
+.container_checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+    max-width: 400px; 
+    padding: 20px; 
+    margin: 20px auto; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+}
+
+.container_checkout p {
+    font-size: small;
+    margin: 10px 0; 
+    color: rgb(15, 150, 150);
+}
+.button {
+    width: 180px; 
+    height: 40px; 
+    font-size: 16px; 
+}
+i{
+    font-size: 50px;
+}
